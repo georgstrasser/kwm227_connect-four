@@ -1,0 +1,80 @@
+/* KWM227 - HUE03 - 07.06.2018  */
+/* Georg Strasser - S1610456033 */
+/* css/default.css              */
+
+body{
+    font-family: monospace;
+}
+
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.playingField {
+    background-color: #777777;
+    border: 3px solid #000;
+    border-top: 1px dashed #000;
+    margin: 100px;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+.ball{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.oPlayer, .xPlayer{
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.oPlayer{
+    background-color: #bb0000;
+}
+
+.xPlayer{
+    background-color: #0055bb;
+}
+
+.o{
+    color: #bb0000;
+}
+
+.x{
+    color: #0055bb;
+}
+
+.winningToken{
+    box-sizing: border-box;
+    border: 10px solid #00bb00;
+}
+
+.restartBtn{
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.col{
+    height: 350px;
+    width: 50px;
+    position: absolute;
+}
+
+.open:hover{
+    background-color: #cdcdcd;
+}
+
+.placeholder:hover{
+    cursor: pointer;
+}
